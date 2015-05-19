@@ -26,6 +26,10 @@ body {
   z-index: 20;
   line-height: 1.0em;
   margin-top: -10px;
+  text-indent: -300000px;
+  min-height: 20px;
+  background: url('../images/logo.png') top center no-repeat;
+  background-size: 100px auto;
 }
 #top-frame svg {
   position: absolute;
@@ -68,8 +72,17 @@ body {
 #top-frame .svgs svg:nth-child(8) {margin-top: -970px; margin-left: -970px; width: 1940px; height: 1940px; -webkit-animation-duration: 29s; -moz-animation-duration: 29s; animation-duration: 29s;}
 
 
-#header h2 {display: inline-block; color: #000000; background-color: #fff; padding: 10px; line-height: 2.0em; font-weight: 700; font-size: 2.1rem; margin-left: -15px;}
+#header h2 {display: inline-block; color: #000000; background-color: #fff; padding: 20px 10px; line-height: 1.5em; font-weight: 700; font-size: 2.1rem; margin-left: -15px;}
+#header form {margin-top: 25px;}
+#header form label {display: block; color: #c2cece; font-size: 1.8rem; line-height: 1.2em; padding: 0 0 8px 0;}
+#header form input[type='email'] {display: inline-block; color: #000000; font-size: 1.8rem; line-height: 1.0em; padding: 8px 10px; margin: 0 3px 0 0; border: 1px solid transparent; outline: none; border-radius: 0; box-shadow: none; vertical-align: baseline;}
+#header form input[type='submit'] {display: inline-block; color: #ffffff; background-color: #82e6b1; border-radius: 7px; font-size: 1.8rem; line-height: 1.0em; margin: 0; padding: 10px 20px; border: 1px solid transparent; outline: none; box-shadow: none;}
+#header form input[type='submit']:focus, #header form input[type='submit']:hover {color: #ffffff; background-color: #ED1A39;}
 
+.large-photo {
+  margin: 20px 0;
+  min-height: 300px;
+}
 
 .white-text-frame .box {
   margin: 20px auto;
@@ -85,8 +98,9 @@ body {
 }
 
 
-.text-and-photo {}
-.text-and-photo p {margin-top: 200px; font-size: 2.4rem; line-height: 1.4em; color: #ffffff; font-weight: 300;}  
+.text-and-photo {padding: 35px 0;}
+.text-and-photo p {margin-top: 150px; font-size: 2.4rem; line-height: 1.4em; color: #ffffff; font-weight: 300;}  
+.text-and-photo img {width: 230px; height: auto;}
 
 
 #footer {
